@@ -33,3 +33,15 @@ window.onscroll = () => {
         header.classList.toggle('sticky', windows.scrollY > 100);
     
 };
+
+/*================== scroll reveal ============*/
+ScrollReveal({
+    reset: true,
+    distance: '800px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal ('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.prince-img, .services-container, .porfolio-box, .contact form', {origin: 'bottom'});
+ScrollReveal().reveal('.home-content h1, .sima-img', { origin: 'left' });
