@@ -172,6 +172,10 @@ span {
     letter-spacing: 1rem;
     font-weight: 600;
     transition: 5s ease;
+    text-align: left;
+    
+   
+   
 }
 
 .btn:hover {
@@ -198,15 +202,22 @@ span {
 .project-container .project-box {
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
+    box-shadow: 0 0 1rem var(--text-color);
     overflow: hidden;
     display: flex;
+    color: #fff;
+    left: 50px;
 
 }
 
 .project-box img {
-    width: 50%;
+    width:  30vw;
+    left: 50%;
+
+    
 }
+
+
 
 
 .contact h2 {
